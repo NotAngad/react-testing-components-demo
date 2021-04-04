@@ -1,0 +1,41 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #d3cce3;
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white; /* Green */
+  border: none;
+  color: #141e30;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.successMessage {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #6bbd6e;
+  color: white;
+}
